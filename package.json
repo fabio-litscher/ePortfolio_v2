@@ -1,0 +1,17 @@
+{
+  "name": "ePortfolio",
+  "version": "0.0.1",
+  "description": "package json for ePortfolio by Fabio Litscher and David Oberholzer",
+  "dependencies": {
+    "jquery": "~2.1",
+    "moment": "~2.9",
+    "angular": "~1.4",
+	"angular-animate": "~1.4",
+    "angular-cookies": "~1.4",
+    "angular-smart-table": "~2.0",
+    "angular-resource": "~1.4",
+    "angular-ui-router": "~0.2",
+    "angular-ui-utils": "~0.1",
+    "angular-ui-bootstrap": "~0.14"
+	}
+}

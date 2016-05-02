@@ -39,7 +39,7 @@
                     })
                     .state('app.gui.overview', {
                         url: '/overview',
-                        templateUrl: 'components/overview/overview.html'
+                        templateUrl: 'components/homepage/homepage.html'
                     });
 
             }

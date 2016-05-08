@@ -49,7 +49,11 @@ nav li:hover {
 nav li:active {
     background-color: #bababa;
 }
-
+div.content{
+	width: 100%;
+	height: 71%;
+	margin-bottom: 20px;
+}
 div.page {
 	width: 100%;
 	height: calc(100vh - 50px);
@@ -61,7 +65,23 @@ div.home {
 	background-size: cover;
 }
 div.thema {
-	background-color: blue;
+	background-color: #bcbcbc;
+}
+div.images{
+	background-image: url("../../assets/img/weather/snow.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+div.video {
+	background-color: cadetblue;
+}
+div.impressum {
+	background-image: url("../../assets/img/weather/sun.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+div.middle{
+	margin: 0 auto;
 }
 div.home div.image{
 	width: 40%;
@@ -69,6 +89,66 @@ div.home div.image{
 }
 div.home img{
 	width: 100%;
-	margin-top: 200px;
+	margin-top: 50px;
 	opacity: 0.6;
+}
+div.text {
+	width: 600px;
+	height: 50vh;
+	background-image: url("../../assets/img/weather/rain.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+div.button{
+	border-radius: 40px;
+	width: 80px;
+	height: 80px;
+	background-color: white;
+	opacity: 0.5;
+	cursor: pointer;
+}
+div.button img{
+	margin-top: 0px;
+}
+div.title{
+	width: 300px;
+	text-align: center;
+	font-size: 22px;
+}
+div.info{
+	width: 40%;
+	height: 80%;
+	float: left;
+	margin-left: 5%;
+	text-align: center;
+	margin-top: 50px;
+}
+div.info span{
+	font-size: 22px;
+	line-height: 1.5;
+}
+div.impressumInfos{
+	width: 80%;
+	height: 75vh;
+	margin-top: 50px;	
+}
+
+#lightbox{
+	background-color:#eee;
+	padding: 10px;
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
+	}
+#lightboxDetails{
+	font-size: 0.8em;
+	padding-top: 0.4em;
+	}	
+#lightboxCaption{ float: left; }
+#keyboardMsg{ float: right; }
+
+#lightbox img{ border: none; } 
+#overlay img{ border: none; }
+
+.pointer{
+	cursor: pointer;
 }

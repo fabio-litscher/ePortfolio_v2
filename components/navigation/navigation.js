@@ -1,18 +1,27 @@
 angular.module('ePortfolioApp.navigation', []).directive('eportfolioNavigationDirective', function () {
 
 var directive = {
-		restrict: 'E',
 		scope: {
 		},
 		templateUrl: 'components/navigation/navigation.html',
-		controller: 'NavigationController'
+		controller: 'NavigationController',
+		controllerAs: 'navigationController',
+		bindToController: true
 	}
 	
 return directive;
 }).controller('NavigationController',
-	['$scope', '$sce',
-		function ($scope, $sce) {
-			
-			
+	['$scope',
+		function ($scope) {
+			var self = this;
+
+			self.goto = goto;
+
+			function goto(buttonLink) {
+				$(document.body).animate({
+					'scrollTop':   $('#' + buttonLink).offset().top
+				}, 1000);
+			}
+
 		}
 	]);

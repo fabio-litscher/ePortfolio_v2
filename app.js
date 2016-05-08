@@ -10,7 +10,8 @@
         'smart-table',
         'ngCookies',
 
-        'ePortfolioApp.navigation'
+        'ePortfolioApp.navigation',
+		'ePortfolioApp.button-directive'
     ])
 
     ePortfolioApp.config(

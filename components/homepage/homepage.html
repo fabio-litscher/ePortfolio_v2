@@ -1,17 +1,66 @@
-<div class="page home">
-	<div class="image">
-		<img src="./assets/img/cloud_chaser_transparent.png" />
+<div id="home" class="page home">
+	<div class="content">
+		<div class="image">
+			<img src="./assets/img/cloud_chaser_transparent.png" />
+		</div>
 	</div>
+	<eportfolio-button-directive button-link="'thema'"></eportfolio-button-directive>
 </div>
 
-<div class="page thema">
+<div id="thema" class="page thema">
+	<div class="content">
+		<div class="middle title">
+			<h1>Thema</h1>
+		</div>
+		<div class="text middle">
+			<p>
+			</p>
+		</div>
+	</div>
+	<eportfolio-button-directive button-link="'images'"></eportfolio-button-directive>
 </div>
 
-<div class="page images">
+<div id="images" class="page images">
+	<div class="content">
+		<div class="middle title">
+			<h1>Bilder</h1>
+		</div>
+		<div class="middle imagesGallery">
+			<a href="./assets/img/weather/sun.jpg" rel="lightbox" title="my caption">Image #2</a>
+			<a href="./assets/img/weather/snow.jpg" rel="lightbox" title="my caption">Image #3</a>
+			<a href="./assets/img/weather/rain.jpg" rel="lightbox" title="my caption">Image #4</a>
+		</div>
+	</div>
+	<eportfolio-button-directive button-link="'video'"></eportfolio-button-directive>
 </div>
 
-<div class="page video">
+<div id="video" class="page video">
+	<div class="content">
+		<div class="middle title">
+			<h1>Video</h1>
+		</div>
+	</div>
+	<eportfolio-button-directive button-link="'impressum'"></eportfolio-button-directive>
 </div>
 
-<div class="page impressum">
+<div id="impressum" class="page impressum">
+	<div class="content">
+		<div class="middle title">
+			<h1>Impressum</h1>
+		</div>
+		<div class="middle impressumInfos">
+			<div class="info david">
+				<h1>David Oberholzer</h1>
+				<span>Applikationsentwickler Helvetia AG</span><br>
+				<span>Distelweg 6 / 9030 Abtwil</span><br>
+				<span>david.oberholzer@gbssg.ch</span>
+			</div>
+			<div class="info fabio">
+				<h1>Fabio Litscher</h1>
+				<span>Applikationsentwickler SFS Services AG</span><br>
+				<span>Schartenstrasse 3a / 9445 Rebstein</span><br>
+				<span>fabio.litscher@gbssg.ch</span>
+			</div>
+		</div>
+	</div>
 </div>

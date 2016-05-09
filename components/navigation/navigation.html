@@ -3,11 +3,11 @@
 	
 	<nav>
 		<ul>
-			<a href=""><li>Home</li></a>
-			<a href=""><li>Thema</li></a>
-			<a href=""><li>Bilder</li></a>
-			<a href=""><li>Video</li></a>
-			<a href=""><li>Impressum</li></a>
+			<a class="pointer" ng-click="navigationController.goto('home')"><li>Home</li></a>
+			<a class="pointer" ng-click="navigationController.goto('thema')"><li>Thema</li></a>
+			<a class="pointer" ng-click="navigationController.goto('images')"><li>Bilder</li></a>
+			<a class="pointer" ng-click="navigationController.goto('video')"><li>Video</li></a>
+			<a class="pointer" ng-click="navigationController.goto('impressum')"><li>Impressum</li></a>
 		</ul>
 	</nav>
 </header>

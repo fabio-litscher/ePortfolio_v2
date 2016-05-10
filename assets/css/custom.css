@@ -68,7 +68,7 @@ div.thema {
 	background-color: #bcbcbc;
 }
 div.images{
-	background-image: url("../../assets/img/weather/snow.jpg");
+	background-image: url("../../assets/img/weather/ticino-weather.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -76,7 +76,7 @@ div.video {
 	background-color: cadetblue;
 }
 div.impressum {
-	background-image: url("../../assets/img/weather/sun.jpg");
+	background-image: url("../../assets/img/weather/snow-laax-sun-ski-weather.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -95,9 +95,14 @@ div.home img{
 div.text {
 	width: 600px;
 	height: 50vh;
-	background-image: url("../../assets/img/weather/rain.jpg");
+	background-image: url("../../assets/img/weather/snow-laax-sun-ski-weather.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+.text p{
+	padding: 20px;
+	padding-top: 50px;
+	text-align: center;
 }
 div.button{
 	border-radius: 40px;
@@ -151,4 +156,9 @@ div.impressumInfos{
 
 .pointer{
 	cursor: pointer;
+}
+.imagesGallery{
+	margin: 0 auto;
+	width: 1300px;
+	padding: 10px;
 }

@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfd25770-7495-492c-8d54-0284296877f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/weather/nebel-edited.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/weather/snow-laax-sun-ski-weather-edited.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/weather/sun-edited.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/weather/sunandsnowinmountains-edited.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/weather/ticino-weather-edited.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_media/logo/cloud_chasers.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_media/logo/cloud_chasers.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/weather/rain.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/weather/storm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/css/lightbox.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/images/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/images/next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/images/prev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/js/lightbox-plus-jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/angular-animate/angular-animate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/angular-busy/dist/angular-busy.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/angular-cookies/angular-cookies.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/angular-smart-table/dist/smart-table.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/moment/min/moment-with-locales.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="bfd25770-7495-492c-8d54-0284296877f3" name="Default" comment="" />
     <ignored path="ePortfolio_v2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -701,12 +677,12 @@
       <created>1462898835885</created>
       <option name="number" value="Default" />
       <updated>1462898835885</updated>
-      <workItem from="1462898837768" duration="8402000" />
+      <workItem from="1462898837768" duration="9053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8402000" />
+    <option name="totallyTimeSpent" value="9053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />

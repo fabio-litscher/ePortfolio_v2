@@ -3,12 +3,9 @@
 
     var ePortfolioApp = angular.module('ePortfolioApp', [
         'ui.router',
-        'ngAnimate',
         'ngResource',
         'ui.bootstrap',
         'ui.keypress',
-        'smart-table',
-        'ngCookies',
 
         'ePortfolioApp.navigation',
 		'ePortfolioApp.button-directive'

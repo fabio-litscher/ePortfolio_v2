@@ -18,7 +18,7 @@ angular.module('ePortfolioApp.button-directive', []).directive('eportfolioButton
             self.goto = goto;
 
             function goto() {
-                $(document.body).animate({
+                $('body,html').animate({
                     'scrollTop':   $('#' + self.buttonLink).offset().top
                 }, 1000);
             }

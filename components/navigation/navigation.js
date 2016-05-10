@@ -18,7 +18,7 @@ return directive;
 			self.goto = goto;
 
 			function goto(buttonLink) {
-				$(document.body).animate({
+				$('body,html').animate({
 					'scrollTop':   $('#' + buttonLink).offset().top
 				}, 1000);
 			}

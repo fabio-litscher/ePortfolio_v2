@@ -77,6 +77,9 @@ div.images{
 div.video {
 	background-color: cadetblue;
 }
+video {
+  margin-left: -160px;
+}
 div.impressum {
 	background-image: url("../../assets/img/weather/snow-laax-sun-ski-weather.jpg");
 	background-repeat: no-repeat;
@@ -142,7 +145,7 @@ div.info span{
 div.impressumInfos{
 	width: 80%;
 	height: 75vh;
-	margin-top: 50px;	
+	margin-top: 50px;
 }
 
 #lightbox{
@@ -154,11 +157,11 @@ div.impressumInfos{
 #lightboxDetails{
 	font-size: 0.8em;
 	padding-top: 0.4em;
-	}	
+	}
 #lightboxCaption{ float: left; }
 #keyboardMsg{ float: right; }
 
-#lightbox img{ border: none; } 
+#lightbox img{ border: none; }
 #overlay img{ border: none; }
 
 .pointer{
